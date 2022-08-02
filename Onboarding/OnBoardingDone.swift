@@ -1,15 +1,25 @@
 //
 //  OnBoardingDone.swift
-//  Onboarding (iOS)
+//  Handle Demo
 //
-//  Created by Justin Hong on 8/1/22.
+//  Created by Justin Hong on 7/6/22.
+//  Copyright © 2022 Handle. All rights reserved.
 //
 
 import SwiftUI
 
 struct OnBoardingDone: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationLink{
+            Finished()
+        } label: {
+            Text("Done")
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Color(hex: 0xD0EDE8)))
+                .foregroundColor(.black)
+                .padding()
+        }
     }
 }
 

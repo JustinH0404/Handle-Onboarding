@@ -17,6 +17,15 @@
 		ACD05B52289824FB00AF0C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B28289824F900AF0C3B /* ContentView.swift */; };
 		ACD05B53289824FB00AF0C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD05B29289824FB00AF0C3B /* Assets.xcassets */; };
 		ACD05B54289824FB00AF0C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD05B29289824FB00AF0C3B /* Assets.xcassets */; };
+		ACD05B652898253E00AF0C3B /* Onboarding Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B642898253E00AF0C3B /* Onboarding Menu.swift */; };
+		ACD05B672898257800AF0C3B /* OnboardingSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B662898257800AF0C3B /* OnboardingSignIn.swift */; };
+		ACD05B692898258900AF0C3B /* OnboardingSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B682898258900AF0C3B /* OnboardingSignUp.swift */; };
+		ACD05B6D289825B200AF0C3B /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = ACD05B6C289825B200AF0C3B /* GoogleSignIn */; };
+		ACD05B6F289825C100AF0C3B /* AppLogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B6E289825C100AF0C3B /* AppLogIn.swift */; };
+		ACD05B71289825E300AF0C3B /* PrimaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B70289825E300AF0C3B /* PrimaryApp.swift */; };
+		ACD05B73289825F600AF0C3B /* OnBoardingDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B72289825F600AF0C3B /* OnBoardingDone.swift */; };
+		ACD05B762898264B00AF0C3B /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ACD05B752898264B00AF0C3B /* GoogleSignInSwift */; };
+		ACD05B78289972CF00AF0C3B /* Finished.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD05B77289972CF00AF0C3B /* Finished.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,13 @@
 		ACD05B47289824FB00AF0C3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD05B4B289824FB00AF0C3B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		ACD05B4D289824FB00AF0C3B /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		ACD05B642898253E00AF0C3B /* Onboarding Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding Menu.swift"; sourceTree = "<group>"; };
+		ACD05B662898257800AF0C3B /* OnboardingSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSignIn.swift; sourceTree = "<group>"; };
+		ACD05B682898258900AF0C3B /* OnboardingSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSignUp.swift; sourceTree = "<group>"; };
+		ACD05B6E289825C100AF0C3B /* AppLogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogIn.swift; sourceTree = "<group>"; };
+		ACD05B70289825E300AF0C3B /* PrimaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryApp.swift; sourceTree = "<group>"; };
+		ACD05B72289825F600AF0C3B /* OnBoardingDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingDone.swift; sourceTree = "<group>"; };
+		ACD05B77289972CF00AF0C3B /* Finished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finished.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD05B6D289825B200AF0C3B /* GoogleSignIn in Frameworks */,
+				ACD05B762898264B00AF0C3B /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +104,7 @@
 		ACD05B21289824F800AF0C3B = {
 			isa = PBXGroup;
 			children = (
+				ACD05B632898253000AF0C3B /* Onboarding */,
 				ACD05B26289824F900AF0C3B /* Shared */,
 				ACD05B35289824FB00AF0C3B /* macOS */,
 				ACD05B3E289824FB00AF0C3B /* Tests iOS */,
@@ -141,6 +160,20 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		ACD05B632898253000AF0C3B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				ACD05B642898253E00AF0C3B /* Onboarding Menu.swift */,
+				ACD05B6E289825C100AF0C3B /* AppLogIn.swift */,
+				ACD05B70289825E300AF0C3B /* PrimaryApp.swift */,
+				ACD05B72289825F600AF0C3B /* OnBoardingDone.swift */,
+				ACD05B662898257800AF0C3B /* OnboardingSignIn.swift */,
+				ACD05B682898258900AF0C3B /* OnboardingSignUp.swift */,
+				ACD05B77289972CF00AF0C3B /* Finished.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +190,10 @@
 			dependencies = (
 			);
 			name = "Onboarding (iOS)";
+			packageProductDependencies = (
+				ACD05B6C289825B200AF0C3B /* GoogleSignIn */,
+				ACD05B752898264B00AF0C3B /* GoogleSignInSwift */,
+			);
 			productName = "Onboarding (iOS)";
 			productReference = ACD05B2E289824FB00AF0C3B /* Onboarding.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +286,10 @@
 				Base,
 			);
 			mainGroup = ACD05B21289824F800AF0C3B;
+			packageReferences = (
+				ACD05B6B289825B200AF0C3B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				ACD05B742898264B00AF0C3B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = ACD05B2F289824FB00AF0C3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD05B73289825F600AF0C3B /* OnBoardingDone.swift in Sources */,
+				ACD05B692898258900AF0C3B /* OnboardingSignUp.swift in Sources */,
+				ACD05B672898257800AF0C3B /* OnboardingSignIn.swift in Sources */,
+				ACD05B71289825E300AF0C3B /* PrimaryApp.swift in Sources */,
+				ACD05B652898253E00AF0C3B /* Onboarding Menu.swift in Sources */,
+				ACD05B6F289825C100AF0C3B /* AppLogIn.swift in Sources */,
 				ACD05B51289824FB00AF0C3B /* ContentView.swift in Sources */,
 				ACD05B4F289824FB00AF0C3B /* OnboardingApp.swift in Sources */,
+				ACD05B78289972CF00AF0C3B /* Finished.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +739,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ACD05B6B289825B200AF0C3B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		ACD05B742898264B00AF0C3B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACD05B6C289825B200AF0C3B /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACD05B6B289825B200AF0C3B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		ACD05B752898264B00AF0C3B /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACD05B6B289825B200AF0C3B /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACD05B22289824F900AF0C3B /* Project object */;
 }
